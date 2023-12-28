@@ -1,0 +1,6 @@
+@inproceedings{bastian2023hybrid,
+    author 	= {Lennart Bastian and Yizheng Xie and Nassir Navab and Zorah Lähner},
+    title 	= { Hybrid Functional Maps for Crease-Aware Non-Isometric Shape Matching },
+    booktitle = {arxiv:2312.03678},
+    year 	= 2023,
+}
