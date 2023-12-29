@@ -58,10 +58,27 @@
       <div class="text-center">
 
         <div class="d-block d-sm-none">
-        <img src="headshot.png" class="img-fluid rounded-circle center-block about-headshot-mobile" alt="headshot">
+          <div class="image-container" class="">
+            <video autoplay loop muted playsinline class="img-fluid rounded-circle center-block about-headshot-mobile">
+              <source src="headshot_dynamic.mp4" type="video/mp4" id="video">
+            </video>
+            <img src="headshot_still.png" class="img-fluid rounded-circle center-block about-headshot-mobile" alt="headshot" id="image">
+            <img src="720transparent.png" class="img-fluid rounded-circle center-block about-headshot-mobile" alt="headshot" id="empty">
+            
+            
+        </div>
+        
         </div>
         <div class="d-none d-sm-block">
-        <img src="headshot.png" class="img-fluid rounded-circle center-block about-headshot" alt="headshot">
+          <div class="image-container" class="">
+            <video autoplay loop muted playsinline class="img-fluid rounded-circle center-block about-headshot">
+              <source src="headshot_dynamic.mp4" type="video/mp4" id="video2">
+            </video>
+            <img src="headshot_still.png" class="img-fluid rounded-circle center-block about-headshot" alt="headshot" id="image2">
+            <img src="720transparent.png" class="img-fluid rounded-circle center-block about-headshot" alt="headshot" id="empty2">
+            
+            
+        </div>
         </div>
         <p class="h3 pt-sm-3 title-name">Yizheng Xie</p>
 
@@ -214,6 +231,30 @@
       isExpanded = !isExpanded;
     });
   });
+</script>
+
+<script>
+var imgElement = document.getElementById('image');
+
+
+imgElement.addEventListener('mouseover', function() {
+  this.style.opacity = 0;
+});
+
+imgElement.addEventListener('mouseout', function() {
+  this.style.opacity = 1;
+});
+
+var imgElement2 = document.getElementById('image2');
+
+imgElement2.addEventListener('mouseover', function() {
+  this.style.opacity = 0;
+});
+
+imgElement2.addEventListener('mouseout', function() {
+  this.style.opacity = 1;
+});
+
 </script>
 
 
