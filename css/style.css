@@ -160,28 +160,15 @@ a:active {
 .summary-title {
   font-family: Arial, sans-serif;
   /* font-variant: small-caps; */
-  font-size: 0.8 rem;
+  font-size: 1.3rem;
   font-weight:500;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-top: 0px;
 }
-
-@media only screen and (min-width: 575px) {
-  .summary-title {
-    font-size: 1.3rem;
-  }
-}
 .summary-authors{
-  font-size: 0.8rem;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-@media only screen and (min-width: 575px) {
-  .summary-authors {
-    font-size: 1.0rem;
-  }
 }
 
 .summary-publication-status {
