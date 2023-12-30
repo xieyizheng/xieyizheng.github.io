@@ -328,11 +328,11 @@ a:active {
   pointer-events: none;
 }
 
-#empty {
+/* #empty {
   background-image: url("../headshot_dynamic.mp4");
   background-size: cover;
   z-index: 2;
-}
+} */
 
 #image {
   transition: opacity 0.8s ease-in-out;
@@ -345,11 +345,11 @@ a:active {
   pointer-events: none;
 }
 
-#empty2 {
+/* #empty2 {
   background-image: url("../headshot_dynamic.mp4");
   background-size: cover;
   z-index: 2;
-}
+} */
 
 #image2 {
   transition: opacity 0.8s ease-in-out;
