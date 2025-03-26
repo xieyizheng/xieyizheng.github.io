@@ -360,3 +360,17 @@ a:active {
 video::-webkit-media-controls {
   display: none !important;
 }
+
+.acknowledgment-text {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.acknowledgment-text a {
+    color: #666;
+    text-decoration: none;
+}
+
+.acknowledgment-text a:hover {
+    text-decoration: underline;
+}
