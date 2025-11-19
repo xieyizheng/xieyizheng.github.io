@@ -11,16 +11,16 @@ body {
 
 /* Link colors */
 a:link {
-    color: #1d6448;
+    color: #A6192E;
 }
 a:visited {
-    color: #1d6448;
+    color: #A6192E;
 }
 a:hover {
-    color: #1d6448;
+    color: #A6192E;
 }
 a:active {
-    color: #1d6448;
+    color: #A6192E;
 }
 
 .footer-text {
@@ -61,7 +61,7 @@ a:active {
   /* font-family: Arial, sans-serif; */
   font-family: Arial, sans-serif;
   font-size: 1.5rem;
-  color: #1d6448; 
+  color: #A6192E; 
 }
 
 .link-button-small {
@@ -69,7 +69,7 @@ a:active {
   font-size: 1.2rem;
   padding-left: .5rem;
   padding-right: .5rem;
-  color: #1d6448;
+  color: #A6192E;
 }
 
 .drop-shadow {
@@ -110,7 +110,7 @@ a:active {
 }
 
 .news-date {
-  /* color: #1d6448; */
+  /* color: #A6192E; */
   display: inline-block;
   font-weight: 500;
   inline-size: 4em;
@@ -125,7 +125,7 @@ a:active {
   cursor: pointer;
   text-align: center;
   margin-left: 1em;
-  color: #1d6448;
+  color: #A6192E;
 }
 
 
@@ -187,14 +187,14 @@ a:active {
 .summary-publication-status {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #1d6448;
+  color: #A6192E;
 }
 
 .summary-extras {
   padding-left: 5px;
   padding-right: 5px;
   font-weight: bolder;
-  background: #1d644833;
+  background: #A6192E33;
 }
 .summary-extras:hover {
   text-decoration: none;
@@ -228,7 +228,7 @@ a:active {
 
 .badge-button {
   font-size: 0.8rem;
-  background: #1d644833;
+  background: #A6192E33;
   line-height: 225%;
   margin-right: 0.25rem;
 }
@@ -238,7 +238,7 @@ a:active {
 
 .big-badge-button {
   font-size: 1.0rem;
-  background: #1d644833;
+  background: #A6192E33;
 }
 .big-badge-button:hover {
   text-decoration: none;
@@ -272,7 +272,7 @@ a:active {
   font-size: 1.2em;
   text-align: center;
   align: center;
-  color: #1d6448;
+  color: #A6192E;
 }
 
 .extras {
@@ -281,7 +281,7 @@ a:active {
   font-size: 1.2em;
   text-align: center;
   align: center;
-  color: #1d6448;
+  color: #A6192E;
   font-weight: bolder;
 }
 .hover {
